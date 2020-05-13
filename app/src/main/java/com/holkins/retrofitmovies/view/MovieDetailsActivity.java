@@ -1,11 +1,13 @@
 package com.holkins.retrofitmovies.view;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import com.holkins.retrofitmovies.R;
+import com.holkins.retrofitmovies.databinding.ActivityMovieDetailsBinding;
 import com.holkins.retrofitmovies.model.Result;
 
 public class MovieDetailsActivity extends AppCompatActivity {

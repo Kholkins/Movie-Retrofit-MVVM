@@ -7,7 +7,7 @@
 
         <variable
             name="result"
-            type="com.android.uraall.mvvmretrofitdemo.model.Result" />
+            type="com.holkins.retrofitmovies.model.Result" />
 
     </data>
 

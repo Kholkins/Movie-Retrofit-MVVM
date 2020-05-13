@@ -4,15 +4,19 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.databinding.DataBindingUtil;
+import androidx.paging.PagedListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.holkins.retrofitmovies.R;
+import com.holkins.retrofitmovies.databinding.ResultListItemBinding;
 import com.holkins.retrofitmovies.model.Result;
 import com.holkins.retrofitmovies.view.MovieDetailsActivity;
 
-public class ResultAdapter xtends PagedListAdapter<Result, ResultAdapter.ResultViewHolder> {
+public class ResultAdapter extends PagedListAdapter<Result, ResultAdapter.ResultViewHolder> {
 
         private Context context;
 //    private ArrayList<Result> results;

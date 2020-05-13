@@ -1,6 +1,7 @@
 package com.holkins.retrofitmovies.view;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.paging.PagedList;
@@ -14,6 +15,7 @@ import android.os.Bundle;
 
 import com.holkins.retrofitmovies.R;
 import com.holkins.retrofitmovies.adapter.ResultAdapter;
+import com.holkins.retrofitmovies.databinding.ActivityMainBinding;
 import com.holkins.retrofitmovies.model.MovieApiResponse;
 import com.holkins.retrofitmovies.model.Result;
 import com.holkins.retrofitmovies.service.MovieApiService;
